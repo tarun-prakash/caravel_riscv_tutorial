@@ -4,7 +4,7 @@
 set ::env(DESIGN_NAME) "picorv32"
 set ::env(PDK) "sky130A"
 set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
-set ::env(CLOCK_PERIOD) 100
+set ::env(CLOCK_PERIOD) 25
 set ::env(CLOCK_PORT) "clk"
 set ::env(CLOCK_NET) "clk"
 #set ::env(DESIGN_IS_CORE) 0
